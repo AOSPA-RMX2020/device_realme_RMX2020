@@ -143,6 +143,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += packages/apps/Bluetooth
 
 # Symbols
 PRODUCT_PACKAGES += \
