@@ -1,4 +1,7 @@
-Realme C3/Realme Narzo 10A Device Tree - RMX2020/RMX2027
+![photo_2021-07-15_00-46-13](https://user-images.githubusercontent.com/47187468/125679851-7d17ae20-13df-48d8-bbe5-bf0595428ec1.jpg)
+
+
+Realme C3/Realme Narzo 10A AOSPA Device Tree - RMX2020/RMX2027
 ================================================================
 
 
@@ -24,6 +27,5 @@ Release Month | 2020, February 14 | 2020, May 22
 Patches needed:
 
 1. Needed to boot: https://github.com/SamarV-121/android_vendor_extra/blob/lineage-18.1/patches/external/selinux/0001-Revert-libsepol-Make-an-unknown-permission-an-error-.patch
-2. Needed for AV fix: https://github.com/phhusson/platform_frameworks_av/commit/624cfc90b8bedb024f289772960f3cd7072fa940.patch
 
-Copyright (C) 2021 Lineage OS
+Copyright (C) 2021 Paranoid Android (AOSPA)
