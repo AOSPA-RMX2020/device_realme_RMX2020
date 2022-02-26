@@ -105,3 +105,6 @@ ro.zram.periodic_wb_delay_hours=24
 
 # Zygote
 ro.zygote.preload.enable=0
+
+# Disable servicetracker
+sys.vendor.qti.servicetracker.disable=true
