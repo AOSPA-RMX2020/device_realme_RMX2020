@@ -21,6 +21,9 @@ $(call inherit-product, $(DEVICE_PATH)/app/RealmeDirac/dirac.mk)
 # Parts
 $(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)
 
+# Mediatek Common Kernel Headers
+$(call inherit-product, kernel/mediatek/common-headers/device.mk)
+
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_USES_QCOM_HARDWARE := false
 
@@ -165,6 +168,9 @@ PRODUCT_PACKAGES += \
 # Inherit several Android Go Configurations (Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
+
+# Kernel
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
