@@ -171,6 +171,8 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/prebuilt/kernel:kernel
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
