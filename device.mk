@@ -370,7 +370,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
-    packages/apps/Bluetooth
+    packages/modules/Bluetooth/android/app
 
 # Camera
 PRODUCT_PACKAGES += \
