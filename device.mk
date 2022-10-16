@@ -22,6 +22,7 @@ $(call inherit-product, $(DEVICE_PATH)/app/RealmeDirac/dirac.mk)
 $(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_USES_QCOM_HARDWARE := false
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
