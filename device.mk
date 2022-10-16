@@ -364,7 +364,9 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH) \
+    packages/apps/Bluetooth
 
 # Camera
 PRODUCT_PACKAGES += \
