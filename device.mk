@@ -286,6 +286,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.3 \
     android.hardware.power@1.3.vendor
 
 PRODUCT_COPY_FILES += \
