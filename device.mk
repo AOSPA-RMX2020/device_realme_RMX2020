@@ -350,11 +350,6 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayRMX2020 \
     WifiResOverlayRMX2020
 
-ifneq ($(ARROW_GAPPS),true)
-PRODUCT_PACKAGES += \
-    ApertureQRScannerOverlayRMX2020
-endif
-
 # Secure element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0.vendor
