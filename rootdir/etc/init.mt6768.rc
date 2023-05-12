@@ -955,8 +955,3 @@ service charger /bin/chargeonlymode
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
 
-on property:persist.sys.dt2w=0
-    write /proc/touchpanel/double_tap_enable 0
-
-on property:persist.sys.dt2w=1
-    write /proc/touchpanel/double_tap_enable 1
