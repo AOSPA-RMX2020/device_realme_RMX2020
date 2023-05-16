@@ -85,6 +85,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth.a2dp@1.0.vendor
 
+# Board
+TARGET_BOARD_PLATFORM := mt6768
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5.vendor \
