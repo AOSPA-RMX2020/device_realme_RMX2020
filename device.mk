@@ -96,6 +96,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_camera_metadata
 
+PRODUCT_PACKAGES += \
+    Aperture
+
+PRODUCT_PACKAGES += \
+    RemoveCameraPackages
+
 # Disable Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -362,6 +368,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/mediatek \
     $(DEVICE_PATH) \
     packages/modules/Bluetooth/android/app
 
@@ -387,7 +394,7 @@ PRODUCT_PACKAGES += \
 # Vibrator
 TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.RMX2020
+    android.hardware.vibrator-service.mediatek
 
 # VNDK
 PRODUCT_COPY_FILES += \
