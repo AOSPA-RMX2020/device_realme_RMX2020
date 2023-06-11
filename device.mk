@@ -378,6 +378,7 @@ PRODUCT_PACKAGES += \
 
 # Symbols
 PRODUCT_PACKAGES += \
+    libshim_showlogo \
     libshim_vtservice
 
 # Text classifier
