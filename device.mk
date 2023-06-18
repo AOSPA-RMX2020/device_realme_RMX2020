@@ -189,6 +189,12 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert.vendor:64 \
     libpuresoftkeymasterdevice.vendor:64
 
+# Kernel
+TARGET_KERNEL_DIR := $(DEVICE_PATH)-kernel
+TARGET_PREBUILT_KERNEL := $(TARGET_KERNEL_DIR)/Image.gz
+
+PRODUCT_COPY_FILES += $(TARGET_PREBUILT_KERNEL):kernel
+
 # Offline Charging
 PRODUCT_PACKAGES += \
     libsuspend
