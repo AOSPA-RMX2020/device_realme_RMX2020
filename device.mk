@@ -323,6 +323,7 @@ PRODUCT_PACKAGES += \
 # Runtime Resource Overlays 
 PRODUCT_PACKAGES += \
     ApertureOverlayRMX2020 \
+    AOSPAFrameworksRMX2020 \
     CarrierConfigOverlayRMX2020 \
     DialerOverlayRMX2020 \
     DocumentsUIOverlayRMX2020 \
