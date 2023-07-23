@@ -329,6 +329,7 @@ PRODUCT_PACKAGES += \
 # Runtime Resource Overlays 
 PRODUCT_PACKAGES += \
     ApertureOverlayRMX2020 \
+    AOSPAFrameworksRMX2020 \
     CarrierConfigOverlayRMX2020 \
     FrameworksResOverlayRMX2020 \
     SettingsOverlayRMX2020 \
