@@ -20,6 +20,7 @@ $(call inherit-product, vendor/realme/RMX2020-ims/RMX2020-ims.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 TARGET_BOARD_PLATFORM := mt6768
+PRODUCT_USES_QCOM_HARDWARE := false
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
