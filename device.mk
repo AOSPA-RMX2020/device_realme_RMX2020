@@ -19,6 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, vendor/realme/RMX2020-ims/RMX2020-ims.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
+TARGET_BOARD_PLATFORM := mt6768
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
