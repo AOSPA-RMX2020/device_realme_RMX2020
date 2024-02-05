@@ -361,6 +361,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/mediatek \
+    packages/modules/Bluetooth/android/app \
     $(DEVICE_PATH)
 
 # Text classifier
