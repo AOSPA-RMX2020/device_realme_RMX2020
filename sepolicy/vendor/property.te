@@ -9,3 +9,4 @@ vendor_public_prop(vendor_oplus_fingerprint_prop)
 
 # Radio
 vendor_public_prop(vendor_oplus_radio_prop)
+vendor_public_prop(vendor_radio_prop)

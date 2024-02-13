@@ -9,6 +9,7 @@ demo.far                                u:object_r:exported_system_prop:s0
 demo.fb                                 u:object_r:exported_system_prop:s0
 dump.bpci_tbl.                          u:object_r:system_oplus_camera_prop:s0
 oppo.camera.                            u:object_r:system_oplus_camera_prop:s0
+ro.mtk_cam_stereo_camera_support        u:object_r:system_mtk_camera_prop:s0
 
 # Fingerprint
 oppo.optical.                           u:object_r:system_oplus_fingerprint_prop:s0

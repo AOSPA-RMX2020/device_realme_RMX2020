@@ -4,6 +4,7 @@ system_public_prop(system_oplus_audio_prop)
 
 # Camera
 system_public_prop(system_oplus_camera_prop)
+system_public_prop(system_mtk_camera_prop)
 
 # Fingerprint
 system_public_prop(system_oplus_fingerprint_prop)

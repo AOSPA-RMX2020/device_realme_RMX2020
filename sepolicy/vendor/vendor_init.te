@@ -1,4 +1,7 @@
 allow vendor_init device:file { create write };
 allow vendor_init proc_tp:file rw_file_perms;
 allow vendor_init proc_vm:file rw_file_perms;
+allow vendor_init proc_dirty:file rw_file_perms;
 allow vendor_init sysfs_otg_switch:file rw_file_perms;
+set_prop(vendor_init, vendor_radio_prop)
+set_prop(vendor_init, system_mtk_camera_prop)
