@@ -163,6 +163,8 @@ include device/mediatek/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
+BOARD_SEPOLICY_M4DEFS += \
+     sysfs_battery_supply=vendor_sysfs_battery_supply
 
 # Wifi
 WPA_SUPPLICANT_VERSION := VER_0_8_X
