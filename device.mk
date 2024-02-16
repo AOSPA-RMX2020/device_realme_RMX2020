@@ -373,10 +373,6 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor \
     android.hardware.thermal@1.0-impl
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.RMX2020
-
 # Vibrator
 TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
 PRODUCT_PACKAGES += \
