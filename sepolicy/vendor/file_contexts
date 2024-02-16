@@ -23,3 +23,6 @@
 
 # Sensor
 /dev/m_virtual_sensor_misc(/.*)?                                                                          u:object_r:m_virtual_sensor_device:s0 
+
+# USB
+/(vendor|system/vendor)/bin/hw/android\.hardware\.usb-service\.mediatek-legacy                               u:object_r:hal_usb_default_exec:s0

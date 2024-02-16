@@ -373,6 +373,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor \
     android.hardware.thermal@1.0-impl
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.mediatek-legacy
+
 # Vibrator
 TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
 PRODUCT_PACKAGES += \
